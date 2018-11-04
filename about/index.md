@@ -1,37 +1,19 @@
 ---
 layout: page
-title: About the Theme
-tags: [about, Jekyll, theme, moon]
-date: 2016-03-21
-comments: false
+title: Ara-112
+tags: [about, ara]
+date: 2018-11-04
+comments: true
 ---
-    
-<center><a href="http://taylantatli.github.io/Moon"><b>Moon</b></a> is a minimal, one column jekyll theme.</center>
 
-## Features
-* Minimal, you can focus on your content
-* Responsive
-* Disqus integration
-* Syntax highlighting
-* Optional post image
-* Social icons
-* Page for sharing projects
-* Optional background image
-* Simple navigation menu
-* MathJax support
+<center>PRAYER | 超任性 | 巨挑食 | 后端开发技术废 | 又菜又爱玩ver70.0 | NEVERMORE</center>
+<center>I'm not a lesbian but I believe <b>LOVE IS LOVE</b>:rainbow_flag:</center>
 
-## Preview
+## 联系 :rocket:
+* [Github](https://github.com/ara112)
+* [Twitter](https://twitter.com/AraJ112)
+* [Steam](https://steamcommunity.com/id/ara112)
 
-{% capture images %}
-    https://cloud.githubusercontent.com/assets/754514/14509720/61c61058-01d6-11e6-93ab-0918515ecd56.png
-    https://cloud.githubusercontent.com/assets/754514/14509716/61ac6c8e-01d6-11e6-879f-8308883de790.png
-{% endcapture %}
-{% include gallery images=images caption="Screenshots of Moon Theme" cols=2 %}
+## 主题
 
-See a [live version of Moon](http://taylantatli.github.io/Moon) hosted on GitHub.
-
-## Getting Started
-
-To learn how to install and use this theme check out the [Setup Guide](http://taylantatli.me/Moon/moon-theme/) for more information.
-      
-[Install Moon](https://github.com/TaylanTatli/Moon){: .btn}
+主题来自TaylanTatli/Moon[Install Moon](https://github.com/TaylanTatli/Moon){: .btn}
