@@ -8,7 +8,7 @@ comments: false
 ---
 
 <style type="text/css">
-image .emoji{
+img.emoji{
   display: initial;
   width: 25px;
   height: 25px;
