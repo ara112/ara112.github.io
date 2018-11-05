@@ -7,7 +7,7 @@ date: 2018-11-04
 comments: false
 ---
 
-<style style="text/css">
+<style type="text/css">
 image .emoji{
   display: initial;
   width: 25px;
