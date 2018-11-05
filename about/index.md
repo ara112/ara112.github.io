@@ -15,7 +15,8 @@ img.emoji{
 }
 </style>
 
-{% if 36961585 %}
+{% page.music-id == 36961585 %}
+{% if page.music-id %}
   {% include cloud-music.html %}
 {% endif %}
 
