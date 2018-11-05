@@ -2,7 +2,7 @@
 layout: page
 title: "About Ara-112"
 tag:
-- About
+- about
 date: 2018-11-04
 comments: false
 ---
@@ -10,14 +10,16 @@ comments: false
 <style type="text/css">
 img.emoji{
   display: initial;
-  width: 25px;
-  height: 25px;
+  width: 20px;
+  height: 20px;
 }
 </style>
 
-{% if 36961585 %}
+{% page.music-id == 36961585 %}
+{% print page.music-id %}
+<!-- {% if page.music-id %}
   {% include cloud-music.html %}
-{% endif %}
+{% endif %} -->
 
 <center>Room 112. No drinks. No Werewolves of Millers Hollow. Nothing.</center>
 
