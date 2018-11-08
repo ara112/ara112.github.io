@@ -15,8 +15,7 @@ img.emoji{
 }
 </style>
 
-{% page.music-id == 36961585 %}
-{% echo page.music-id %}
+{% echo test%}
 
 <center>Room 112. No drinks. No Werewolves of Millers Hollow. Nothing.</center>
 
