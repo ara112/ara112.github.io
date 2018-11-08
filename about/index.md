@@ -16,11 +16,11 @@ img.emoji{
 }
 </style>
 
-{%if page.music-id%}
+{% if page.music-id %}
   <center>
     {% include cloud-music.html %}
   </center>
-{endif}
+{% endif %}
 <center>Room 112. No drinks. No Werewolves of Millers Hollow. Nothing.</center>
 
 ## 关于 :ghost:
