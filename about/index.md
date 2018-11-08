@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "About Ara-112"
+music-id: 461544680
 tag:
 - about
 date: 2018-11-04
@@ -15,6 +16,11 @@ img.emoji{
 }
 </style>
 
+{%if page.music-id%}
+  <center>
+    {% include cloud-music.html %}
+  </center>
+{endif}
 <center>Room 112. No drinks. No Werewolves of Millers Hollow. Nothing.</center>
 
 ## 关于 :ghost:
@@ -29,9 +35,6 @@ img.emoji{
 ## 主题 :pray:
 * 主题来自[TaylanTatli/Moon](https://github.com/TaylanTatli/Moon)
 
-
-
-
 ---
 
-噢我的老伙计！你是第<span id="busuanzi_value_site_uv"></span>个Check in的:full_moon_with_face:
+噢我的老伙计！你是第<span id="busuanzi_value_site_uv"></span>个Check in的！ :high_brightness:
