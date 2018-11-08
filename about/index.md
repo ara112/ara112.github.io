@@ -29,4 +29,6 @@ img.emoji{
 ## 主题 :pray:
 * 主题来自[TaylanTatli/Moon](https://github.com/TaylanTatli/Moon)
 
-本站总访问量<span id="busuanzi_value_site_pv"></span>次
+---
+
+您是本站的第<span id="busuanzi_value_site_uv"></span>个:sun_with_face:
