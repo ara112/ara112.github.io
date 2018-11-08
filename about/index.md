@@ -15,8 +15,13 @@ img.emoji{
 }
 </style>
 
-{% echo test%}
-
+<center>
+{% page.music-id = '36961585' %}
+{% echo page.music-id %}
+{% if page.music-id %}
+  {% include cloud-music.html %}
+{% endif %}
+</center>
 <center>Room 112. No drinks. No Werewolves of Millers Hollow. Nothing.</center>
 
 ## 关于 :ghost:
