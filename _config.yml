@@ -1,7 +1,7 @@
 # Site
 title:              Ara112
-bio:                'PRAYER \ 超任性 \ 巨挑食 \ 后端开发技术废 \ 粗鄙野人 \ NEVERMORE'
-description:        "PRAYER \ 超任性 \ 巨挑食 \ 后端开发技术废 \ 粗鄙野人 \ NEVERMORE"
+bio:                'PRAYER | 超任性 | 巨挑食 | 后端开发技术废 | 粗鄙野人 | NEVERMORE'
+description:        "PRAYER | 超任性 | 巨挑食 | 后端开发技术废 | 粗鄙野人 | NEVERMORE"
 reading_time:       true
 words_per_minute:   200
 logo:               'assets/img/logo.png'
@@ -62,7 +62,7 @@ steam:              ara112
 #xmpp:              username@server.com
 #hackernews:        username
 
-# Gems 
+# Gems
 gems:
   - jekyll-mentions
   - jekyll-feed
