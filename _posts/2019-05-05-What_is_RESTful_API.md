@@ -14,6 +14,7 @@ comments: true
 > [维基百科 | 表现层状态转换](https://zh.wikipedia.org/wiki/表现层状态转换)  
 > [Roy T. Fielding | Architectural Styles and
 the Design of Network-based Software Architectures, CHAPTER 5, Representational State Transfer (REST) ](https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm)  
+> [Roy T. Fielding | 架构风格与基于网络的软件架构设计](https://www.infoq.cn/article/dissertation-rest-cn)  
 
 ---
 
@@ -36,8 +37,8 @@ the Design of Network-based Software Architectures, CHAPTER 5, Representational 
 支持通过下载并执行一些代码（例如Java Applet、Flash或JavaScript），对客户端的功能进行扩展。
 
 在 REST 中，resource 资源的定义在于
-> Any information that can be named can be a resource: a document or image, a temporal service (e.g. "today's weather in Los Angeles"), a collection of other resources, a non-virtual object (e.g. a person), and so on. In other words, any concept that might be the target of an author's hypertext reference must fit within the definition of a resource. A resource is a conceptual mapping to a set of entities, not the entity that corresponds to the mapping at any particular point in time.
-> 任何信息都可以视作一个资源：一份文档或者一张图片，一个 temporal service（例如：洛杉矶今天的天气），其他
+> Any information that can be named can be a resource: a document or image, a temporal service (e.g. "today's weather in Los Angeles"), a collection of other resources, a non-virtual object (e.g. a person), and so on. In other words, any concept that might be the target of an author's hypertext reference must fit within the definition of a resource. A resource is a conceptual mapping to a set of entities, not the entity that corresponds to the mapping at any particular point in time.  
+> 任何能够被命名的信息都能够作为一个资源：一份文档或一张图片、一个与时间相关的服务（例如，“洛杉矶今日的天气”）、一个其他资源的集合、一个非虚拟的对象（例如，人）等等
 
 ### 什么是 RESTful API
 那么 RESTful API 指的是什么呢：
@@ -50,8 +51,9 @@ the Design of Network-based Software Architectures, CHAPTER 5, Representational 
 >  2. 传输的资源的表现形式是Web服务接受与返回的互联网媒体类型，比如：JSON，XML，YAML等；
 >  3. 使用 HTTP 协议对资源进行操作。
 
->    扩展阅读：
-> * [ Dr. M. Elkstein |
-Learn REST: A Tutorial](http://rest.elkstein.org/2008/02/what-is-rest.html)
-> * [stackoverflow | Best practices for API versioning?](https://stackoverflow.com/questions/389169/best-practices-for-API-versioning)
-> * [赛艇队长 | http协议无状态中的 "状态" 到底指的是什么？！](https://www.cnblogs.com/bellkosmos/p/5237146.html)
+---
+
+>    扩展阅读：  
+> [ Dr. M. Elkstein | Learn REST: A Tutorial](http://rest.elkstein.org/2008/02/what-is-rest.html)   
+> [stackoverflow | Best practices for API versioning?](https://stackoverflow.com/questions/389169/best-practices-for-API-versioning)   
+> [赛艇队长 | http协议无状态中的 "状态" 到底指的是什么？！](https://www.cnblogs.com/bellkosmos/p/5237146.html)
