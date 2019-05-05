@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "About Ara-112"
-music-id: 461544680
+music-id: 469073881
 tag:
 - about
 date: 2018-11-04
@@ -21,11 +21,11 @@ img.emoji{
     {% include cloud-music.html %}
   </center>
 {% endif %}
-<center>Room 112. No drinks. No Werewolves of Millers Hollow. Nothing.</center>
+<center>Alohomora!</center>
 
 ## 关于 :ghost:
-* PRAYER \| 超任性 \| 巨挑食 \| 后端开发技术废 \| 又菜又爱玩ver70.0 \| NEVERMORE
-*  I'm not a lesbian but I believe **LOVE IS LOVE**  :rainbow_flag:
+* PRAYER \| 超任性 \| 巨挑食 \| 后端开发技术废 \| 你不要那么凶我会比你更凶 \| 粗鄙野人 \| NEVERMORE
+* I'm not a lesbian but I believe **LOVE IS LOVE**  :rainbow_flag:
 
 ## 联系 :rocket:
 * [Github](https://github.com/ara112)  
