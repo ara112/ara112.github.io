@@ -7,8 +7,6 @@ tags: [Linux, LAMP, basic]
 comments: true
 ---
 
-# CentOS 7 LAMP安装记录
-
 > 参考文档：
 [Centos7安装PHP、MySQL、Apache](https://www.cnblogs.com/shengChristine/p/9293996.html)
 [CentOS 7 安装 PHP 7.2](https://www.centos.bz/2019/02/centos-7-安装-php-7-2/)
