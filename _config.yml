@@ -62,7 +62,7 @@ steam:              ara112
 #xmpp:              username@server.com
 #hackernews:        username
 
-# Gems
+# Gems 
 gems:
   - jekyll-mentions
   - jekyll-feed
