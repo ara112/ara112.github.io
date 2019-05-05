@@ -24,7 +24,7 @@ img.emoji{
 <center>Alohomora!</center>
 
 ## 关于 :ghost:
-* PRAYER \| 超任性 \| 巨挑食 \| 后端开发技术废 \| 你不要那么凶我会比你更凶 \| 粗鄙野人 \| NEVERMORE
+* PRAYER \| 超任性 \| 巨挑食 \| 后端开发技术废 \| 粗鄙野人 \| NEVERMORE
 * I'm not a lesbian but I believe **LOVE IS LOVE**  :rainbow_flag:
 
 ## 联系 :rocket:
