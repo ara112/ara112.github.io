@@ -8,10 +8,10 @@ comments: true
 ---
 
 > 参考文档：
-[Centos7安装PHP、MySQL、Apache](https://www.cnblogs.com/shengChristine/p/9293996.html)
-[CentOS 7 安装 PHP 7.2](https://www.centos.bz/2019/02/centos-7-安装-php-7-2/)
-[CentOS常用的文件操作命令总结](https://www.haorooms.com/post/centeros_wj_zj)
-[Linux下彻底卸载mysql 图解教程](http://blog.itblood.com/completely-uninstall-the-mysql-under-linux-graphic-tutorials.html)
+[Centos7安装PHP、MySQL、Apache](https://www.cnblogs.com/shengChristine/p/9293996.html)  
+[CentOS 7 安装 PHP 7.2](https://www.centos.bz/2019/02/centos-7-安装-php-7-2/)  
+[CentOS常用的文件操作命令总结](https://www.haorooms.com/post/centeros_wj_zj)  
+[Linux下彻底卸载mysql 图解教程](http://blog.itblood.com/completely-uninstall-the-mysql-under-linux-graphic-tutorials.html)  
 
 *使用软件：
 虚拟机：[VMware Workstation 15](https://www.vmware.com/cn/products/workstation-pro/workstation-pro-evaluation.html)
