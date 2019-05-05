@@ -2,18 +2,18 @@
 layout: post
 title: "RESTful API 的原理和使用"
 date: 2019-05-05
-excerpt: "参考 wiki 可知 REST 是 Representational State Transfer 表现层状态转换的英文缩写，由 Roy Thomas Fielding于 2000 年提出，是基于 HTTP 之上而确定的一组约束和属性，是一种设计提供万维网络服务的软件构建风格，目的是便于不同软件/程序在网络（例如互联网）中互相传递信息。"
+excerpt: "参考 wiki 可知 REST 是 Representational State Transfer 表现层状态转换的英文缩写，由 Roy Thomas Fielding于 2000 年提出，是基于 HTTP 之上而确定的一组约束和属性，是一种设计提供万维网络服务的软件构建风格。"
 tags: [API, basic]
 comments: true
 ---
 
-> 参考文档：
-> 1. [Vinay Sahni（英原） | Best Practices for Designing a Pragmatic RESTful API](https://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api)
-> 2. [bruce-accumulate（中译） | RESTful API 设计最佳实践](http://blog.jobbole.com/41233/)
-> 3. [阮一峰 | RESTful API 设计指南](http://www.ruanyifeng.com/blog/2014/05/restful_api.html)
-> 4. [维基百科 | 表现层状态转换](https://zh.wikipedia.org/wiki/表现层状态转换)
-> 5. [Roy T. Fielding | Architectural Styles and
-the Design of Network-based Software Architectures, CHAPTER 5, Representational State Transfer (REST) ](https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm)
+> 参考文档：  
+> [Vinay Sahni（英原） | Best Practices for Designing a Pragmatic RESTful API](https://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api)  
+> [bruce-accumulate（中译） | RESTful API 设计最佳实践](http://blog.jobbole.com/41233/)  
+> [阮一峰 | RESTful API 设计指南](http://www.ruanyifeng.com/blog/2014/05/restful_api.html)  
+> [维基百科 | 表现层状态转换](https://zh.wikipedia.org/wiki/表现层状态转换)  
+> [Roy T. Fielding | Architectural Styles and
+the Design of Network-based Software Architectures, CHAPTER 5, Representational State Transfer (REST) ](https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm)  
 
 ---
 
