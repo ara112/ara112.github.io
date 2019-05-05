@@ -18,10 +18,10 @@ the Design of Network-based Software Architectures, CHAPTER 5, Representational 
 
 ---
 
-在我看来 Vinay Sahni 的文章已经很简单易懂了，以下是针对他的文章对自己的知识点梳理和补充，速成建议直接查看第三条参考文档阮一峰的文章。
+在我看来 Vinay Sahni 的文章已经很详细简单易懂了，以下是针对他的文章对自己的知识点梳理和补充，速成建议直接查看第三条参考文档阮一峰的文章。
 
 ### 什么是 REST
-开始先粗略了解一下 REST。参考 wiki 可知 REST 是 Representational State Transfer 表现层状态转换的英文缩写，由 [Roy Thomas Fielding](https://www.ics.uci.edu/~fielding/) 于 2000 年提出，是***基于 HTTP*  之上而确定的一组约束和属性，是一种设计提供万维网络服务的 *软件构建风格* ，目的是便于不同软件/程序在网络（例如互联网）中互相传递信息**  。要注意的是这并不是 API 编写标准，而是一种广为接受的设计风格。它的特点在于
+开始先粗略了解一下 REST。参考 wiki 可知 REST 是 Representational State Transfer 表现层状态转换的英文缩写，由 [Roy Thomas Fielding](https://www.ics.uci.edu/~fielding/) 于 2000 年提出，是***基于 HTTP*  之上而确定的一组约束和属性，是一种设计提供万维网络服务的 *软件构建风格* ，目的是便于不同软件/程序在网络（例如互联网）中互相传递信息**  。要注意的是这并不是 API 编写标准，而是一种广为接受的设计风格。它的特定约束在于
 
 > 1. **Client-Server 客户端-服务器结构**
 将浏览器视为客户端，使用客户端服务器分离模式，任何一个客户端与服务器都是可替换的；只能由客户端向服务器端发起请求，服务器处理并返回结果；支持跨平台跨语言。
@@ -37,12 +37,12 @@ the Design of Network-based Software Architectures, CHAPTER 5, Representational 
 支持通过下载并执行一些代码（例如Java Applet、Flash或JavaScript），对客户端的功能进行扩展。
 
 在 REST 中，resource 资源的定义在于
-> Any information that can be named can be a resource: a document or image, a temporal service (e.g. "today's weather in Los Angeles"), a collection of other resources, a non-virtual object (e.g. a person), and so on. In other words, any concept that might be the target of an author's hypertext reference must fit within the definition of a resource. A resource is a conceptual mapping to a set of entities, not the entity that corresponds to the mapping at any particular point in time.  
-> 任何能够被命名的信息都能够作为一个资源：一份文档或一张图片、一个与时间相关的服务（例如，“洛杉矶今日的天气”）、一个其他资源的集合、一个非虚拟的对象（例如，人）等等
+> Any information that can be named can be a resource: a document or image, a temporal service (e.g. "today's weather in Los Angeles"), a collection of other resources, a non-virtual object (e.g. a person), and so on... A resource is a conceptual mapping to a set of entities, not the entity that corresponds to the mapping at any particular point in time.  
+> 任何能够被命名的信息都能够作为一个资源：一份文档或一张图片、一个与时间相关的服务（例如，“洛杉矶今日的天气”）、一个其他资源的集合、一个非虚拟的对象（例如，人）等等......一个资源是到一组实体的概念上的映射，而不是在任何特定时刻与该映射相关联的实体本身。  
 
 ### 什么是 RESTful API
 那么 RESTful API 指的是什么呢：
-> The key principles of REST involve separating your API into logical resources. These resources are manipulated using HTTP requests where the method (GET, POST, PUT, PATCH, DELETE) has specific meaning.
+> The key principles of REST involve separating your API into logical resources. These resources are manipulated using HTTP requests where the method (GET, POST, PUT, PATCH, DELETE) has specific meaning.  
 > REST 的核心原则是将你的 API 拆分为逻辑上的资源。这些资源通过http被操作（GET ,POST,PUT,DELETE）。
 
 那么对于符合以下 REST 设计风格的 Web API 称为 RESTful API：
