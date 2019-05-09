@@ -51,6 +51,10 @@ Linux 版本：[CentOS 7.6](http://isoredirect.centos.org/centos/7/isos/x86_64/C
             Loaded: loaded
             Active: active (running)
         4.  再次输入 <code># mysql -u root</code> ，登录成功
+-   Apache 启动报错 'AH00558: httpd: Could not reliably determine...'
+    -   打开 apache 的配置文件 httpd.conf，查找 '#ServerName www.example.com:80'，复制粘贴去掉 # ，将 'ServerName' 改成可用域名或整句配置改为 'ServerName localhost:80'
+    -   使用 'apachectl -t' 检查 Apache 配置
+    -   使用 'service httpd restart' 重启服务
 
 ### PHP 7.0 安装
 
@@ -107,8 +111,11 @@ Linux 版本：[CentOS 7.6](http://isoredirect.centos.org/centos/7/isos/x86_64/C
 2.  启动 Apache
     -   <code># systemctl start httpd</code>
 3.  打开网址出现 'Testing 123' Apache HTTP Server Test Page powered by CentOS 页面就是安装成功啦
+4.  指令相关
+    -   <code># systemctl status httpd.service</code> 检查 httpd 运行状态
+    -   <code># systemctl start httpd.service</code> 启动服务
 
-### 编辑 httpd.conf 绑定域名
+<!-- ### 编辑 httpd.conf 绑定域名
 
 不同系统存放配置文件的路径不同，CentOS 中的配置文件 httpd.conf 存放在 /etc/httpd/conf 中，使用 <code>vi /etc/httpd/conf/httpd.conf</code> 进行编辑
 首先是常用项修改，将 <code>AllowOverride none</code> 改为 <code>AllowOverride All</code>
@@ -118,6 +125,22 @@ Linux 版本：[CentOS 7.6](http://isoredirect.centos.org/centos/7/isos/x86_64/C
         ServerAdmin webmaster@dummy-host.example.com
         DocumentRoot /www/docs/dummy-host.example.com
         ServerName dummy-host.example.com
+        ErrorLog logs/dummy-host.example.com-error_log
+        CustomLog logs/dummy-host.example.com-access_log common
+    </VirtualHost>
+
+**ServerName 后面只能加一个域名，要重复绑定则需要添加多加多个VirtualHost模块。** -->
+
+### 绑定域名
+
+不同系统存放配置文件的路径不同，CentOS 中的配置文件 httpd.conf 存放在 /etc/httpd/conf 中，使用 <code>vi /etc/httpd/conf/httpd.conf</code> 进行编辑。  
+首先是常用项修改，将 <code>AllowOverride none</code> 改为 <code>AllowOverride All</code>。  
+到 /etc/httpd/conf.d 中新建 vhost.conf 文件，在文本下方添加以下代码，再根据自己的网站配置进行一定修改。如果网站使用了 SSL 加密，则 'VirtualHost \*:80' 的端口改为443。注意 httpd.conf 文本要有该文件的添加记录，如 'Include conf/vhosts.conf'，或者 'IncludeOptional conf.d/\*.conf'。   
+
+    <VirtualHost *:80>
+        ServerAdmin webmaster@dummy-host.example.com
+        DocumentRoot 网站文件目录
+        ServerName 域名
         ErrorLog logs/dummy-host.example.com-error_log
         CustomLog logs/dummy-host.example.com-access_log common
     </VirtualHost>
