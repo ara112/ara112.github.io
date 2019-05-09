@@ -146,3 +146,5 @@ Linux 版本：[CentOS 7.6](http://isoredirect.centos.org/centos/7/isos/x86_64/C
     </VirtualHost>
 
 **ServerName 后面只能加一个域名，要重复绑定则需要添加多加多个VirtualHost模块。**
+
+## 改配置文件要重启 \*100遍！
