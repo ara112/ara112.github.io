@@ -98,4 +98,4 @@ Nginx 版本：[Nginx 1.16.0](https://nginx.org/en/download.html)_
 
 
 
-# 更改配置文件要重启 \*100遍！
+# 更改配置文件要重启 \* 100遍！
