@@ -93,19 +93,5 @@ Nginx 版本：[Nginx 1.16.0](https://nginx.org/en/download.html)_
     -   <code># php composer-setup.php</code> 执行安装过程
     -   <code># php -r "unlink('composer-setup.php');"</code> 删除安装脚本文件
     -   <code># mv composer.phar /usr/local/bin/composer</code> 移动上面下载的 composer.phar 到 /usr/local/bin文件夹中，并重命名为 composer  
-2.  启动 Nginx
-    -   <code># systemctl start nginx</code>
-3.  设置开机启动
-    -   <code># systemctl enable nginx</code>
-4.  打开网址出现 'Welcome to nginx' 页面就是安装成功啦
-5.  开启防火墙及 80、443 端口
-    - <code># systemctl start firewalld </code>  
-    - <code># firewall-cmd --permanent --zone=public --add-service=http </code>  
-    - <code># firewall-cmd --permanent --zone=public --add-service=https </code>  
-    - <code># firewall-cmd --reload </code>  
-5.  指令相关
-    -   <code># systemctl status nginx</code> 检查 Nginx 运行状态
-    -   <code># systemctl restart nginx</code> 重启 Nginx
-    -   <code># systemctl stop nginx</code> 停止 Nginx
 
 ## 更改配置文件要重启 \*100遍！
