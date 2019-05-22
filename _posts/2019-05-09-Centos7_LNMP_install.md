@@ -89,9 +89,13 @@ Nginx 版本：[Nginx 1.16.0](https://nginx.org/en/download.html)_
 ### Composer 安装
 
 1.  执行指令：
-    -   <code># php -r "copy('https://install.phpcomposer.com/installer', 'composer-setup.php');"</code> 下载安装脚本文件到当前目录  
-    -   <code># php composer-setup.php</code> 执行安装过程
-    -   <code># php -r "unlink('composer-setup.php');"</code> 删除安装脚本文件
-    -   <code># mv composer.phar /usr/local/bin/composer</code> 移动上面下载的 composer.phar 到 /usr/local/bin文件夹中，并重命名为 composer  
+    -   <code># php -r "copy('https://install.phpcomposer.com/installer', 'composer-setup.php');" </code> 下载安装脚本文件到当前目录  
+    -   <code># php composer-setup.php </code> 执行安装过程
+    -   <code># php -r "unlink('composer-setup.php');" </code> 删除安装脚本文件
+    -   <code># mv composer.phar /usr/local/bin/composer </code> 全局安装：移动上面下载的 composer.phar 到 /usr/local/bin文件夹中，并重命名为 composer  
+    -   <code># composer --version </code> 查看版本  
+    -   <code># composer selfupdate </code> composer 更新  
 
-## 更改配置文件要重启 \*100遍！
+
+
+# 更改配置文件要重启 \*100遍！
