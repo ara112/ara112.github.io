@@ -10,6 +10,7 @@ comments: true
 > 参考文档：  
 > [随缘盛世 - Centos7安装PHP、MySQL、Apache](https://www.cnblogs.com/shengChristine/p/9293996.html)  
 > [菜菜生活 - CentOS 7 安装 PHP 7.2](http://www.caicaishouyou.com/2019/02/22/centos-7-安装-php-7-2/)  
+> [大雷同学 - LINUX CENTOS 使用YUM源安装MYSQL 5.7 ](https://www.cnblogs.com/zhuleixiao/p/9545529.html)  
 > [Aaron - CentOS常用的文件操作命令总结](https://www.haorooms.com/post/centeros_wj_zj)  
 > [IT热血青年 - Linux下彻底卸载mysql 图解教程](http://blog.itblood.com/completely-uninstall-the-mysql-under-linux-graphic-tutorials.html)  
 
@@ -61,7 +62,7 @@ Linux 版本：[CentOS 7.6](http://isoredirect.centos.org/centos/7/isos/x86_64/C
 1.  安装 epel ( _Extra Packages for Enterprise Linux_  )
     -   <code># yum -y install epel-release</code>
 2.  安装 php 及扩展（方法一）
-    -   <code># rpm -Uvh <https://mirror.webtatic.com/yum/el7/webtatic-release.rpm></code> 获取 php 7.0 rpm 包
+    -   <code># rpm -Uvh https://mirror.webtatic.com/yum/el7/webtatic-release.rpm></code 获取 php 7.x rpm 包
     -   <code>yum search php70w</code> 查看可安装扩展
     -   <code># yum install {扩展名}</code> 安装扩展
     -   安装完成后可使用 <code>php -v</code> 查看当前 php 版本
@@ -73,7 +74,7 @@ Linux 版本：[CentOS 7.6](http://isoredirect.centos.org/centos/7/isos/x86_64/C
 ### MySQL 安装
 
 1.  执行指令获取 MySQL 5.6 repo 源：
-    -   <code># wget <http://dev.mysql.com/get/mysql-community-release-el7-5.noarch.rpm></code>
+    -   <code># wget http://dev.mysql.com/get/mysql-community-release-el7-5.noarch.rpm</code>
 2.  安装下载好的 MySQL repo rpm 包
     -   <code># rpm -ivh mysql-community-release-el7-5.noarch.rpm</code>
 3.  安装 MySQL
